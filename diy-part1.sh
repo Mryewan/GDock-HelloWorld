@@ -12,8 +12,11 @@
 
 #Clone SSRPlus source code
 #git clone https://github.com/fw876/helloworld package/SSRPlus
-#Clone OpenClash
-git clone https://github.com/vernesong/OpenClash package/OpenClash
+#git lua-maxminddb 依赖
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#Clone  vssr
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
