@@ -13,17 +13,15 @@
 #Clone SSRPlus source code
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/lua-maxminddb.git
 #Clone  vssr
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 #passwall依赖及下载源码
-git clone https://github.com/kenzok8/openwrt-packages.git
-git clone https://github.com/kenzok8/small.git
+cd lede/package &&  git clone https://github.com/Lienol/openwrt-package.git
 
-#luci-app-ssr-plus下载源码
-git clone https://github.com/maxlicheng/luci-app-ssr-plus.git
-git rm --cached package/lean/luci-app-ssr-plus/ -r
+#luci-app-ssr-plus依赖包下载源码
+cd lede/package &&  git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git
 
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
@@ -32,5 +30,5 @@ git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
