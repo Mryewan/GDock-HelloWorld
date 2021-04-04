@@ -18,10 +18,10 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 #passwall依赖及下载源码
-cd lede/package &&  git clone https://github.com/Lienol/openwrt-package.git
+git clone https://github.com/esirplayground/Lienol-obsolete/tree/master/luci-app-passwall.git package/luci-app-passwall
 
 #luci-app-ssr-plus依赖包下载源码
-cd lede/package &&  git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git
+git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-app-ssr-plus
 
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
