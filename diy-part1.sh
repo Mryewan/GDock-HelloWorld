@@ -14,13 +14,9 @@
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #git lua-maxminddb 依赖
 cd lede/package/lean/  
-
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr-plus
-
 make menuconfig
-
 make -j1 V=s 
 #Clone  vssr
 #git clone https://github.com/siropboy/luci-app-vssr-plus.git package/luci-app-vssr-plus
