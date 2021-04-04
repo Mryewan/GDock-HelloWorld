@@ -13,7 +13,7 @@
 #Clone SSRPlus source code
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #Clone  vssr
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
