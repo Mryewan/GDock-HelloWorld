@@ -26,7 +26,8 @@ make -j1 V=s
 #git clone https://github.com/siropboy/luci-app-vssr-plus.git package/luci-app-vssr-plus
 
 #passwall依赖及下载源码
-git clone https://github.com/yiguihai/luci-app-passwall-plus.git package/luci-app-passwall-plus
+#git clone https://github.com/yiguihai/luci-app-passwall-plus.git package/luci-app-passwall-plus
+git clone https://github.com/pirately/passwall.git package/passwall
 
 #luci-app-ssr-plus依赖包下载源码
 #git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-app-ssr-plus
