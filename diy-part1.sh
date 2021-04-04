@@ -31,7 +31,9 @@ git clone https://github.com/esirplayground/luci-app-v2ray-server.git package/lu
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
 #L大源码
-git clone https://github.com/coolsnowwolf/lede package/lede
+git clone https://github.com/coolsnowwolf/lede.git package/lede
+git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #ipk全固件
 git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
