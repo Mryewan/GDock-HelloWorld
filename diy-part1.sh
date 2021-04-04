@@ -13,15 +13,19 @@
 #Clone SSRPlus source code
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #Clone  vssr
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/siropboy/luci-app-vssr-plus.git package/luci-app-vssr-plus
 
 #passwall依赖及下载源码
 git clone https://github.com/esirplayground/Lienol-obsolete/tree/master/luci-app-passwall.git package/luci-app-passwall
 
 #luci-app-ssr-plus依赖包下载源码
-git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-app-ssr-plus
+#git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-app-ssr-plus
+git clone https://github.com/esirplayground/Lean-obsolete/tree/master/luci-app-ssr-plus.git package/luci-app-ssr-plus
+
+#luci-app-v2ray-server
+git clone https://github.com/esirplayground/luci-app-v2ray-server.git package/luci-app-v2ray-server
 
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
