@@ -13,8 +13,8 @@
 rm -rf ./package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon/
 # Modify default IP
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.10.1.1/g' package/base-files/files/bin/config_generate
 # Modify default host name
-sed -i 's/OpenWrt/Kyara/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/Linksys1900ACS-v2/g' package/base-files/files/bin/config_generate
 # Modify default wireless name
-sed -i 's/OpenWrt/Kyara/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/OpenWrt/LEDE_5GHz/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
