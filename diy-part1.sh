@@ -13,13 +13,9 @@
 #Clone SSRPlus source code
 git clone https://github.com/fw876/helloworld package/SSRPlus
 #git lua-maxminddb 依赖
-cd lede/package/lean/  
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr-plus
-make menuconfig
-make -j1 V=s 
 #Clone  vssr
-#git clone https://github.com/siropboy/luci-app-vssr-plus.git package/luci-app-vssr-plus
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr-plus
 
 #passwall依赖及下载源码
 git clone https://github.com/yiguihai/luci-app-passwall-plus.git package/luci-app-passwall-plus
@@ -34,6 +30,9 @@ git clone https://github.com/esirplayground/luci-app-v2ray-server.git package/lu
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
+#L大源码
+git clone https://github.com/coolsnowwolf/lede package/lede
+
 #ipk全固件
 git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
 # Uncomment a feed source
@@ -42,4 +41,4 @@ git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-pack
 #Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
