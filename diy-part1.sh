@@ -26,9 +26,12 @@ git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
+#ipk全固件
+git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#Add a feed source
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
