@@ -13,30 +13,30 @@
 #Clone SSRPlus source code
 git clone https://github.com/fw876/helloworld packages/SSRPlus
 #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/lua-maxminddb.git packages/lua-maxminddb
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #Clone  vssr
-git clone https://github.com/jerrykuku/luci-app-vssr.git packages/luci-app-vssr-plus
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr-plus
 
 #passwall依赖及下载源码
-git clone https://github.com/yiguihai/luci-app-passwall-plus.git packages/luci-app-passwall-plus
+git clone https://github.com/yiguihai/luci-app-passwall-plus.git package/luci-app-passwall-plus
 
 #luci-app-ssr-plus依赖包下载源码
-#git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git packages/luci-app-ssr-plus
-git clone https://github.com/maxlicheng/luci-app-ssr-plus.git packages/luci-app-ssr-plus
+#git clone https://github.com/romantices/luci-app-ssr-plus-jo-1.git package/luci-app-ssr-plus
+git clone https://github.com/maxlicheng/luci-app-ssr-plus.git package/luci-app-ssr-plus
 
 #luci-app-v2ray-server
-git clone https://github.com/esirplayground/luci-app-v2ray-server.git packages/luci-app-v2ray-server
+git clone https://github.com/esirplayground/luci-app-v2ray-server.git package/luci-app-v2ray-server
 
 #Clone OpenAppFilter source code
-git clone https://github.com/destan19/OpenAppFilter packages/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
 #L大源码
-git clone https://github.com/coolsnowwolf/lede.git packages/lede
-git clone https://github.com/liuran001/openwrt-packages.git packages/openwrt-packages
-git clone https://github.com/kenzok8/openwrt-packages.git packages/openwrt-packages
+git clone https://github.com/coolsnowwolf/package.git package/package
+git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #ipk全固件
-git clone https://github.com/liuran001/openwrt-packages.git packages/openwrt-packages
+#git clone https://github.com/liuran001/openwrt-packages.git package/openwrt-packages
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
